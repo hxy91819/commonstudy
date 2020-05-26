@@ -10,7 +10,7 @@ public class GeneScheduleClient {
         // 类名|cron expression|name|group
         // String input = "com.gzhc365.hiwork.schedule.task.scheduling.report.MiniappDailyReportJob|0 0 4 * * ?|schedulingReportGroup";
 //        String input = "com.gzhc365.hiwork.schedule.task.bbs.UpdateIndexJob|0 0/5 * * * ?|bbsGroup";
-        String input = "com.gzhc365.hiwork.schedule.task.scheduling.remind.NextPeriodNotScheduleRemindJob|0 0 15 * * ?|schedulingRemindGroup";
+        String input = "com.gzhc365.hiwork.schedule.task.oper.SaveContinuousDeptCountJob|0 0 20 * * ?|dataMonitorGroup";
 
         String[] inputs = input.split("[|]");
 
